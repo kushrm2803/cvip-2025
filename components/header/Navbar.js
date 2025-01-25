@@ -16,44 +16,69 @@ const Navbar = () => {
 
   const tabs = [
     { label: "Home", link: "/" },
-    { label: "About", link: "/about" },
+    { label: "Important Dates", link: "/imp-dates" },
     {
-      label: "Services",
+      label: "Submissions",
       dropdown: [
-        { label: "Web Development", link: "/services/web-development" },
-        { label: "Mobile Development", link: "/services/mobile-development" },
-        { label: "SEO Services", link: "/services/seo" },
+        { label: "Call for Papers", link: "/submissions/call-for-papers" },
+        {
+          label: "Program Schedule and Oral Presentation",
+          link: "/submissions/program-schedule",
+        },
+        { label: "Author Guidelines", link: "/submissions/author-guidelines" },
+        {
+          label: "Presentation Guidelines",
+          link: "/submissions/presentation-guidelines",
+        },
+        { label: "Accepted Papers", link: "/submissions/accepted-papers" },
+        { label: "Registered Papers", link: "/submissions/registered-papers" },
+      ],
+    },
+    { label: "Challenge", link: "/challenge" },
+    { label: "Awards", link: "/awards" },
+    {
+      label: "Venue & Travel",
+      dropdown: [
+        { label: "Conference Venue", link: "/venue&travel/conference-venue" },
+        { label: "Accomodation", link: "/vanue&travel/accomodation" },
+        { label: "How to Reach?", link: "/vanue&travel/how-to-reach" },
+        {
+          label: "Tourist Places Nearby",
+          link: "/vanue&travel/tourist-places-nearby",
+        },
       ],
     },
     {
-      label: "Portfolio",
+      label: "Committee",
       dropdown: [
-        { label: "Projects", link: "/portfolio/projects" },
-        { label: "Case Studies", link: "/portfolio/case-studies" },
+        {
+          label: "Organizing Committee",
+          link: "/committee/organizing-committee",
+        },
+        { label: "Advisory Committee", link: "/committee/advisory-committee" },
       ],
     },
-    { label: "Blog", link: "/blog" },
+    { label: "Registration", link: "/registration" },
     {
-      label: "Resources",
+      label: "Year",
       dropdown: [
-        { label: "Documentation", link: "/resources/documentation" },
-        { label: "Tutorials", link: "/resources/tutorials" },
-      ],
-    },
-    { label: "Contact", link: "/contact" },
-    {
-      label: "More",
-      dropdown: [
-        { label: "FAQs", link: "/more/faqs" },
-        { label: "Terms of Service", link: "/more/terms" },
-        { label: "Privacy Policy", link: "/more/privacy" },
+        { label: "2015", link: "/more/faqs" },
+        { label: "2016", link: "/more/faqs" },
+        { label: "2017", link: "/more/faqs" },
+        { label: "2018", link: "/more/faqs" },
+        { label: "2019", link: "/more/faqs" },
+        { label: "2020", link: "/more/faqs" },
+        { label: "2021", link: "/more/faqs" },
+        { label: "2022", link: "/more/faqs" },
+        { label: "2023", link: "/more/faqs" },
+        { label: "2024", link: "/more/faqs" },
       ],
     },
   ];
 
   return (
-    <nav>
-      <ul className="flex space-x-6">
+    <nav className="flex-grow">
+      <ul className="flex justify-center space-x-6">
         {tabs.map((tab, index) => (
           <li
             key={index}
@@ -102,7 +127,11 @@ const Navbar = () => {
             </Link>
 
             {tab.dropdown && dropdownIndex === index && (
-              <ul className="absolute left-0 mt-2 bg-white border rounded-md shadow-lg py-2 z-10">
+              <ul
+                className="absolute left-0 bg-white border rounded-md shadow-lg py-2 z-10 w-48"
+                onMouseEnter={() => handleMouseEnter(index)}
+                onMouseLeave={handleMouseLeave}
+              >
                 {tab.dropdown.map((item, subIndex) => (
                   <li key={subIndex} className="hover:bg-gray-100">
                     <Link href={item.link}>
