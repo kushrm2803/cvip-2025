@@ -61,7 +61,6 @@ const Carousel = () => {
         ))}
       </div>
 
-      {/* Slide Indicators */}
       <div className="absolute z-30 flex justify-center bottom-10 left-0 right-0">
         {slides.map((_, index) => (
           <button
@@ -77,7 +76,6 @@ const Carousel = () => {
         ))}
       </div>
 
-      {/* Previous Button */}
       <button
         type="button"
         className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 group focus:outline-none"
@@ -102,7 +100,6 @@ const Carousel = () => {
         </span>
       </button>
 
-      {/* Next Button */}
       <button
         type="button"
         className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 group focus:outline-none"
