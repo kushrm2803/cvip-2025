@@ -31,7 +31,7 @@ const SponsorsSection = () => {
               whileInView={{ scale: 1, opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
-              className="flex justify-center items-center bg-white p-8 rounded-lg shadow-md"
+              className="flex justify-center items-center bg-white p-8 rounded-lg"
             >
               <img src={sponsor.logo} alt={sponsor.name} className="h-44 w-auto object-contain" />
             </motion.div>

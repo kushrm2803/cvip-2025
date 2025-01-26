@@ -38,11 +38,13 @@ const Carousel = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(() => {
+    const delay = currentSlide === 0 ? 7000 : 2500; // 6 seconds for the first slide, 3 seconds for others
+    const interval = setTimeout(() => {
       handleNext();
-    }, 3000);
-    return () => clearInterval(interval);
+    }, delay);
+    return () => clearTimeout(interval);
   }, [currentSlide]);
+  
 
   return (
     <div className="relative w-full h-screen overflow-hidden">

@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const AboutIITRopar = () => {
   return (
-    <div className="mt-6  min-h-screen bg-white py-12">
+    <div className="mt-6  min-h-[80vh] bg-white py-12">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <motion.div 

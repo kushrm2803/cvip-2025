@@ -10,7 +10,7 @@ const ScrollButton = ({ targetId, children, className }) => {
 
   return (
     <button
-      className={`bg-red-600 text-white px-6 py-3 rounded-lg text-lg font-semibold ${className}`}
+      className={`bg-red-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-red-500 ${className}`}
       onClick={scrollToSection}
     >
       {children}
