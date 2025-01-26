@@ -10,8 +10,8 @@ const Carousel = () => {
       src: "/home/college-photo.jpeg",
       alt: "CVIP 2022 Conference",
       content: (
-        <div className="absolute top-0 left-0 w-full h-full bg-black/60 flex flex-col items-center justify-center text-white px-4 text-center">
-          <h1 className="text-4xl md:text-6xl font-extrabold mb-6 transition-all duration-500 transform hover:scale-105">
+        <div className="absolute top-2 left-0 w-full h-full bg-black/60 flex flex-col items-center justify-center text-white px-4 text-center">
+          <h1 className="text-4xl md:text-6xl font-extrabold mb-6 transition-all duration-700 transform hover:scale-105">
             10th International Conference on
             <br />
             Computer Vision & Image Processing
