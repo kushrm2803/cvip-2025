@@ -19,7 +19,7 @@ const Carousel = () => {
           <p className="text-lg md:text-2xl mb-8 opacity-90">
             11-13 December, 2025 | IIT Ropar, Punjab - 140001, INDIA
           </p>
-          <ScrollButton targetId="about">About CVIP 2025</ScrollButton>
+          <ScrollButton targetId="conference-about">About CVIP 2025</ScrollButton>
         </div>
       ),
     },

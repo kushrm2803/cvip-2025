@@ -6,13 +6,13 @@ import { motion } from 'framer-motion';
 const AboutIITRopar = () => {
   return (
     <div className="mt-6  min-h-screen bg-white py-12">
-      <div className="max-w-8xl mx-auto px-6 lg:px-12">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <motion.div 
             className="w-full h-auto"
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            // viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
             <img 
