@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useRouter } from 'next/router';
 import CarouselItem from "./CarouselItem";
 import ScrollButton from "./ScrollButton";
 
@@ -19,7 +20,13 @@ const Carousel = () => {
           <p className="text-lg md:text-2xl mb-8 opacity-90">
             11-13 December, 2025 | IIT Ropar, Punjab - 140001, INDIA
           </p>
+          <div className="flex gap-4">
           <ScrollButton targetId="conference-about">About CVIP 2025</ScrollButton>
+          <button onClick={() => router.push('/imp-dates')}
+className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold transition-all duration-300 hover:bg-blue-500">
+      Important Dates
+    </button>
+          </div>
         </div>
       ),
     },
