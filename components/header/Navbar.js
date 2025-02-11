@@ -74,16 +74,15 @@ const Navbar = ({ isMobile, closeMenu }) => {
     {
       label: "Year",
       dropdown: [
-        { label: "2015", link: "/more/faqs" },
-        { label: "2016", link: "/more/faqs" },
-        { label: "2017", link: "/more/faqs" },
-        { label: "2018", link: "/more/faqs" },
-        { label: "2019", link: "/more/faqs" },
-        { label: "2020", link: "/more/faqs" },
-        { label: "2021", link: "/more/faqs" },
-        { label: "2022", link: "/more/faqs" },
-        { label: "2023", link: "/more/faqs" },
-        { label: "2024", link: "/more/faqs" },
+        { label: "2016", link: "https://www.iitr.ac.in/cvip2016/" },
+        { label: "2017", link: "https://www.iitr.ac.in/cvip2017/index.html" },
+        { label: "2018", link: "https://www.iiitdmj.ac.in/CVIP-2018/" },
+        { label: "2019", link: "https://mnit.ac.in/" },
+        { label: "2020", link: "https://cvip2020.iiita.ac.in/" },
+        // { label: "2021", link: "/more/faqs" },
+        { label: "2022", link: "https://vnit.ac.in/cvip2022/index.php" },
+        { label: "2023", link: "https://iitjammu.ac.in/cvip2023/index.html" },
+        { label: "2024", link: "https://cvip2024.iiitdm.ac.in/" },
       ],
     },
   ];
@@ -172,6 +171,7 @@ const Navbar = ({ isMobile, closeMenu }) => {
                     key={subIndex}
                     className={`hover:bg-gray-100 ${isMobile ? "pl-8" : ""}`}
                   >
+                   {tab.label!=="Year"?
                     <Link
                       href={item.link}
                       onClick={handleLinkClick}
@@ -179,6 +179,12 @@ const Navbar = ({ isMobile, closeMenu }) => {
                     >
                       {item.label}
                     </Link>
+                    : <a
+                      href={item.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block px-4 py-2 text-gray-700 hover:text-blue-600"
+                    >{item.label}</a>}
                   </li>
                 ))}
               </ul>

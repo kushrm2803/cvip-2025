@@ -1,3 +1,4 @@
+"use react"
 import React from 'react';
 import SponsorsSection from '@/components/home/SponsorSection';
 import HeroSection from '@/components/HeroSection';

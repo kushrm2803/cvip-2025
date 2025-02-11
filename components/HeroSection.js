@@ -5,7 +5,8 @@ import Image from "next/image";
 
 const HeroSection = ({ title, imageUrl }) => {
   return (
-    <AnimatePresence mode="wait">
+    <div className="my-5">
+      <AnimatePresence mode="wait">
       <motion.div
         key={title}
         className="relative h-[50vh]"
@@ -33,6 +34,8 @@ const HeroSection = ({ title, imageUrl }) => {
         </motion.div>
       </motion.div>
     </AnimatePresence>
+    </div>
+    
   );
 };
 
