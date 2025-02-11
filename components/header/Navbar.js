@@ -70,7 +70,7 @@ const Navbar = ({ isMobile, closeMenu }) => {
         { label: "Advisory Committee", link: "/committee/advisory-committee" },
       ],
     },
-    { label: "Registration", link: "/registration" },
+    { label: "Sponsorships", link: "/sponsorships" },
     {
       label: "Year",
       dropdown: [
