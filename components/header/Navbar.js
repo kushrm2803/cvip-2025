@@ -3,15 +3,27 @@
 import React, { useState } from "react";
 import Link from "next/link";
 
-const Navbar = () => {
+const Navbar = ({ isMobile, closeMenu }) => {
   const [dropdownIndex, setDropdownIndex] = useState(null);
 
   const handleMouseEnter = (index) => {
-    setDropdownIndex(index);
+    if (!isMobile) setDropdownIndex(index);
   };
 
   const handleMouseLeave = () => {
-    setDropdownIndex(null);
+    if (!isMobile) setDropdownIndex(null);
+  };
+
+  const handleClick = (index) => {
+    if (isMobile) {
+      setDropdownIndex(dropdownIndex === index ? null : index);
+    }
+  };
+
+  const handleLinkClick = () => {
+    if (isMobile && closeMenu) {
+      closeMenu();
+    }
   };
 
   const tabs = [
@@ -76,68 +88,96 @@ const Navbar = () => {
     },
   ];
 
+  const navClasses = isMobile
+    ? "flex flex-col space-y-2"
+    : "flex justify-center space-x-6";
+
+  const dropdownClasses = isMobile
+    ? "relative bg-gray-50 mt-2 rounded-md"
+    : "absolute left-0 bg-white border rounded-md shadow-lg py-2 z-10 w-48";
+
+  const linkClasses = isMobile
+    ? "w-full px-4 py-2 block hover:bg-gray-100"
+    : "text-gray-800 hover:text-blue-600 font-medium";
+
   return (
     <nav className="flex-grow">
-      <ul className="flex justify-center space-x-6">
+      <ul className={navClasses}>
         {tabs.map((tab, index) => (
           <li
             key={index}
-            className="relative group"
-            onMouseEnter={() => tab.dropdown && handleMouseEnter(index)}
+            className={`relative group ${isMobile ? "w-full" : ""}`}
+            onMouseEnter={() => handleMouseEnter(index)}
             onMouseLeave={handleMouseLeave}
           >
-            <Link href={tab.link || "#"}>
-              <span className="flex items-center text-gray-800 hover:text-blue-600 font-medium">
+            <div
+              className={`flex items-center justify-between ${
+                isMobile ? "px-4 py-2 hover:bg-gray-100" : ""
+              }`}
+              onClick={() => handleClick(index)}
+            >
+              <Link
+                href={tab.link || "#"}
+                onClick={handleLinkClick}
+                className={linkClasses}
+              >
                 {tab.label}
+              </Link>
 
-                {tab.dropdown && (
-                  <span className="ml-2">
-                    {dropdownIndex === index ? (
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="12"
-                        height="12"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path d="M6 9l6 6 6-6" />
-                      </svg>
-                    ) : (
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="12"
-                        height="12"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path d="M12 5v14M5 12h14" />
-                      </svg>
-                    )}
-                  </span>
-                )}
-              </span>
-            </Link>
+              {tab.dropdown && (
+                <button
+                  className="ml-2 focus:outline-none"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleClick(index);
+                  }}
+                >
+                  {dropdownIndex === index ? (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M6 9l6 6 6-6" />
+                    </svg>
+                  ) : (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M12 5v14M5 12h14" />
+                    </svg>
+                  )}
+                </button>
+              )}
+            </div>
 
             {tab.dropdown && dropdownIndex === index && (
-              <ul
-                className="absolute left-0 bg-white border rounded-md shadow-lg py-2 z-10 w-48"
-                onMouseEnter={() => handleMouseEnter(index)}
-                onMouseLeave={handleMouseLeave}
-              >
+              <ul className={dropdownClasses}>
                 {tab.dropdown.map((item, subIndex) => (
-                  <li key={subIndex} className="hover:bg-gray-100">
-                    <Link href={item.link}>
-                      <span className="block px-4 py-2 text-gray-700 hover:text-blue-600">
-                        {item.label}
-                      </span>
+                  <li
+                    key={subIndex}
+                    className={`hover:bg-gray-100 ${isMobile ? "pl-8" : ""}`}
+                  >
+                    <Link
+                      href={item.link}
+                      onClick={handleLinkClick}
+                      className="block px-4 py-2 text-gray-700 hover:text-blue-600"
+                    >
+                      {item.label}
                     </Link>
                   </li>
                 ))}
