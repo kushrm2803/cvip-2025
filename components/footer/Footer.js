@@ -20,10 +20,10 @@ const Footer = () => {
             </div>
             <div className="text-center md:text-left">
               <h2 className="text-2xl font-semibold">
-                Indian Institute of Technology, Ropar
+                Indian Institute of Technology Ropar
               </h2>
               <p className="text-sm text-gray-600">
-                Baraphool, Rupnagar, Punjab - 140001
+                Birla Seed Farms, Rupnagar, Punjab - 140001
               </p>
             </div>
           </div>

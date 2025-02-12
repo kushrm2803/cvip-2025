@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -13,7 +13,10 @@ const DatesTable = ({ dates }) => {
         transition={{ duration: 0.8 }}
         className="mb-12"
       >
-        <h2 className="text-3xl font-semibold mb-8 text-center">
+        <h2
+          className="text-3xl font-semibold mb-8 text-center"
+          id="imp-dates-home"
+        >
           Important Deadlines
         </h2>
         <div className="overflow-x-auto">

@@ -2,10 +2,10 @@
 
 import { useState, useEffect } from "react";
 
-const EventCountDown = ({ eventDate }) => {
+const EventCountDown = ({ eventStartDate, eventEndDate }) => {
   const calculateTimeLeft = () => {
     const now = new Date();
-    const difference = new Date(eventDate) - now;
+    const difference = new Date(eventStartDate) - now;
 
     if (difference > 0) {
       return {
@@ -26,17 +26,27 @@ const EventCountDown = ({ eventDate }) => {
       setTimeLeft(calculateTimeLeft());
     }, 1000);
     return () => clearInterval(timer);
-  }, [eventDate]);
+  }, [eventStartDate]);
 
   return (
     <div className="bg-white text-gray-900 p-8 rounded-xl shadow-lg min-h-[30vh] grid grid-cols-1 lg:grid-cols-3 gap-7 items-center text-center">
       <div>
-        <h2 className="text-4xl font-bold mb-4 ml-auto">Venue</h2>
+        <h2 className="text-4xl font-bold mb-4">Venue</h2>
         <p className="text-xl mb-6">IIT Ropar, Punjab, India</p>
       </div>
       <div className="text-center">
         <p className="text-xl mb-2">
-          <strong>Date:</strong> {new Date(eventDate).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}
+          <strong>Date:</strong>{" "}
+          {new Date(eventStartDate).toLocaleDateString("en-US", {
+            month: "long",
+            day: "numeric",
+          })}{" "}
+          -{" "}
+          {new Date(eventEndDate).toLocaleDateString("en-US", {
+            month: "long",
+            day: "numeric",
+            year: "numeric",
+          })}
         </p>
         <p className="text-xl mb-2">
           <strong>Time:</strong> 9:00 AM - 5:00 PM IST

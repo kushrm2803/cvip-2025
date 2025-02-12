@@ -1,6 +1,6 @@
 "use client";
 
-const ScrollButton = ({ targetId, children, className }) => {
+const ScrollButton = ({ targetId, children, className, color }) => {
   const scrollToSection = () => {
     const section = document.getElementById(targetId);
     if (section) {
@@ -8,10 +8,22 @@ const ScrollButton = ({ targetId, children, className }) => {
     }
   };
 
+  let bgColorClass, hoverBgColorClass, textColorClass;
+
+  if (color === "white") {
+    bgColorClass = "bg-white";
+    hoverBgColorClass = "hover:bg-gray-400";
+    textColorClass = "text-black";
+  } else {
+    bgColorClass = `bg-${color}-600`;
+    hoverBgColorClass = `hover:bg-${color}-500`;
+    textColorClass = "text-white";
+  }
+
   return (
     <button
-      className={`bg-red-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-red-500 ${className}`}
       onClick={scrollToSection}
+      className={`${bgColorClass} ${textColorClass} px-6 py-3 rounded-lg text-lg font-semibold ${hoverBgColorClass} ${className}`}
     >
       {children}
     </button>

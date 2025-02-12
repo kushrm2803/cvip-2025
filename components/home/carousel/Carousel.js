@@ -10,28 +10,6 @@ const Carousel = () => {
     {
       src: "/home/college-photo.jpeg",
       alt: "CVIP 2022 Conference",
-      content: (
-        <div className="absolute top-2 left-0 w-full h-full bg-black/60 flex flex-col items-center justify-center text-white px-4 text-center">
-          <h1 className="text-4xl md:text-6xl font-extrabold mb-6 transition-all duration-700 transform hover:scale-105">
-            10<sup>th</sup> International Conference on
-            <br />
-            Computer Vision & Image Processing
-          </h1>
-          <p className="text-lg md:text-2xl mb-8 opacity-90">
-            11-13 December, 2025 | IIT Ropar, Punjab - 140001, INDIA
-          </p>
-          <div className="flex gap-4">
-            <ScrollButton targetId="conference-about">
-              About CVIP 2025
-            </ScrollButton>
-            <Link href="/imp-dates" passHref>
-              <button className="bg-white text-black px-6 py-3 rounded-lg text-lg font-semibold transition-all duration-300 hover:bg-gray-200">
-                Important Dates
-              </button>
-            </Link>
-          </div>
-        </div>
-      ),
     },
     { src: "/home/spiral.jpg", alt: "Slide 2" },
     { src: "/home/college-photo.jpeg", alt: "Slide 3" },
@@ -67,7 +45,29 @@ const Carousel = () => {
             isActive={index === currentSlide}
             className="transition-all duration-500 ease-in-out transform"
           >
-            {slides[0].content}
+            <div className="absolute top-2 left-0 w-full h-full bg-black/60 flex flex-col items-center justify-center text-white px-4 text-center">
+              <h1 className="text-4xl md:text-6xl font-extrabold mb-6 transition-all duration-700 transform hover:scale-105">
+                10<sup>th</sup> International Conference on
+                <br />
+                Computer Vision & Image Processing
+              </h1>
+              <p className="text-lg md:text-2xl mb-8 opacity-90">
+                10-13 December, 2025 | IIT Ropar, Punjab - 140001, INDIA
+              </p>
+              <div className="flex gap-4">
+                <ScrollButton targetId="conference-about" color="red">
+                  About CVIP 2025
+                </ScrollButton>
+                {/* <Link href="/imp-dates" passHref>
+                  <button className="bg-white text-black px-6 py-3 rounded-lg text-lg font-semibold transition-all duration-300 hover:bg-gray-200">
+                    Important Dates
+                  </button>
+                </Link> */}
+                <ScrollButton targetId="imp-dates-home" color="white">
+                  Important Dates
+                </ScrollButton>
+              </div>
+            </div>
           </CarouselItem>
         ))}
       </div>
