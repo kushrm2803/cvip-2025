@@ -69,6 +69,7 @@ const Navbar = ({ isMobile, closeMenu }) => {
       ],
     },
     { label: "Sponsorships", link: "/sponsorships" },
+    { label: "Registrations", link: "/registrations" },
     {
       label: "Year",
       dropdown: [

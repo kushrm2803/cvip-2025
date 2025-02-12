@@ -37,7 +37,7 @@ const Header = () => {
 
           <button
             onClick={toggleMenu}
-            className="lg:hidden p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100"
+            className="custom-lg:hidden p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100"
             aria-label="Toggle menu"
           >
             {!isMenuOpen ? (
@@ -71,13 +71,13 @@ const Header = () => {
             )}
           </button>
 
-          <div className="hidden lg:block flex-grow">
+          <div className="hidden custom-lg:block flex-grow">
             <Navbar isMobile={false} />
           </div>
         </div>
 
         {isMenuOpen && (
-          <div className="lg:hidden mt-4">
+          <div className="custom-lg:hidden mt-4">
             <Navbar isMobile={true} closeMenu={() => setIsMenuOpen(false)} />
           </div>
         )}

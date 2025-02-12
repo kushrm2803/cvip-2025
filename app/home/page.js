@@ -9,7 +9,7 @@ import EventCountDown from '@/components/home/EventCountDown';
 
 const page = () => {
   return (
-    <div>
+    <div className='w-full'>
         <Carousel />
         <ConferenceDetails/>
         <SpeakersSection />
