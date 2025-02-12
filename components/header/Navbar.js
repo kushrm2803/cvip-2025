@@ -33,15 +33,15 @@ const Navbar = ({ isMobile, closeMenu }) => {
       label: "Submissions",
       dropdown: [
         { label: "Call for Papers", link: "/submissions/call-for-papers" },
-        {
-          label: "Program Schedule and Oral Presentation",
-          link: "/submissions/program-schedule",
-        },
+        // {
+        //   label: "Program Schedule and Oral Presentation",
+        //   link: "/submissions/program-schedule",
+        // },
         { label: "Author Guidelines", link: "/submissions/author-guidelines" },
-        {
-          label: "Presentation Guidelines",
-          link: "/submissions/presentation-guidelines",
-        },
+        // {
+        //   label: "Presentation Guidelines",
+        //   link: "/submissions/presentation-guidelines",
+        // },
         { label: "Accepted Papers", link: "/submissions/accepted-papers" },
         { label: "Registered Papers", link: "/submissions/registered-papers" },
       ],
@@ -63,26 +63,25 @@ const Navbar = ({ isMobile, closeMenu }) => {
     {
       label: "Committee",
       dropdown: [
-        {
-          label: "Organizing Committee",
-          link: "/committee/organizing-committee",
-        },
+        { label: "Organizing Committee", link: "/committee/organizing-committee",},
         { label: "Advisory Committee", link: "/committee/advisory-committee" },
+        { label: "Steering Committee", link: "/committee/steering-comittee"}
       ],
     },
     { label: "Sponsorships", link: "/sponsorships" },
     {
       label: "Year",
       dropdown: [
-        { label: "2016", link: "https://www.iitr.ac.in/cvip2016/" },
-        { label: "2017", link: "https://www.iitr.ac.in/cvip2017/index.html" },
-        { label: "2018", link: "https://www.iiitdmj.ac.in/CVIP-2018/" },
-        { label: "2019", link: "https://mnit.ac.in/" },
-        { label: "2020", link: "https://cvip2020.iiita.ac.in/" },
-        // { label: "2021", link: "/more/faqs" },
-        { label: "2022", link: "https://vnit.ac.in/cvip2022/index.php" },
-        { label: "2023", link: "https://iitjammu.ac.in/cvip2023/index.html" },
         { label: "2024", link: "https://cvip2024.iiitdm.ac.in/" },
+        { label: "2023", link: "https://iitjammu.ac.in/cvip2023/index.html" },
+        { label: "2022", link: "https://vnit.ac.in/cvip2022/index.php" },
+        { label: "2021", link: "https://link.springer.com/book/10.1007/978-3-031-11346-8" },
+        { label: "2020", link: "https://cvip2020.iiita.ac.in/" },
+        { label: "2019", link: "https://mnit.ac.in/" },
+        { label: "2018", link: "https://www.iiitdmj.ac.in/CVIP-2018/" },
+        { label: "2017", link: "https://www.iitr.ac.in/cvip2017/index.html" },
+        { label: "2016", link: "https://www.iitr.ac.in/cvip2016/" },
+        { label: "Past Proceedings", link: "https://link.springer.com/conference/cvip"}
       ],
     },
   ];

@@ -17,7 +17,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2 md:space-x-4">
-            <Link href="/" className="flex-shrink-0">
+            <Link href="https://www.iitrpr.ac.in/" className="flex-shrink-0">
               <Image
                 src="/iitropar-logo.jpg"
                 alt="Logo"

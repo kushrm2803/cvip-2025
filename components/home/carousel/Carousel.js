@@ -13,7 +13,7 @@ const Carousel = () => {
       content: (
         <div className="absolute top-2 left-0 w-full h-full bg-black/60 flex flex-col items-center justify-center text-white px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6 transition-all duration-700 transform hover:scale-105">
-            10th International Conference on
+            10<sup>th</sup> International Conference on
             <br />
             Computer Vision & Image Processing
           </h1>
@@ -48,7 +48,7 @@ const Carousel = () => {
   };
 
   useEffect(() => {
-    const delay = currentSlide === 0 ? 7000 : 2500; // 6 seconds for the first slide, 3 seconds for others
+    const delay = currentSlide === 0 ? 5000 : 3000; // 5 seconds for the first slide, 3 seconds for others
     const interval = setTimeout(() => {
       handleNext();
     }, delay);
@@ -67,7 +67,7 @@ const Carousel = () => {
             isActive={index === currentSlide}
             className="transition-all duration-500 ease-in-out transform"
           >
-            {index === 0 && slide.content}
+            {slides[0].content}
           </CarouselItem>
         ))}
       </div>

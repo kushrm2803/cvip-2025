@@ -11,7 +11,7 @@ const SponsorshipPage = () => {
         title="Sponsorship"
         imageUrl="/home/college-photo.jpeg"
       />
-      <SponsorsSection />
+      {/* <SponsorsSection /> */}
 
       <div className='bg-white p-4 md:p-8 rounded-xl shadow-lg mb-8 animate-fade-in'>
         <section>
