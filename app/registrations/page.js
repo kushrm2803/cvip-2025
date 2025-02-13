@@ -203,10 +203,10 @@ const registrations = () => {
       <table className="w-full border-collapse text-sm md:text-base">
         <thead>
           <tr className="bg-gray-100 text-black -700">
-            <th className="border px-4 py-2 w-1/4">Duration</th>
-            <th className="border px-4 py-2 w-1/2">Category</th>
-            <th className="border px-4 py-2">Indian Delegates</th>
-            <th className="border px-4 py-2">Foreign Delegates</th>
+            <th className="border px-6 py-4 w-1/4">Duration</th>
+            <th className="border px-4 py-4 w-1/2">Category</th>
+            <th className="border px-4 py-4">Indian Delegates</th>
+            <th className="border px-4 py-4">Foreign Delegates</th>
           </tr>
         </thead>
         <tbody>
@@ -218,14 +218,14 @@ const registrations = () => {
                   {rowIndex === 0 && (
                     <td
                       rowSpan={section.rows.length}
-                      className="border px-4 py-2 align-top bg-gray-50 font-semibold"
+                      className="border px-6 py-3 align-top bg-gray-50 font-semibold"
                     >
                       {section.duration}
                     </td>
                   )}
-                  <td className="border px-4 py-2">{row.category}</td>
-                  <td className="border px-4 py-2">{row.indian}</td>
-                  <td className="border px-4 py-2">{row.foreign}</td>
+                  <td className="border px-6 py-3">{row.category}</td>
+                  <td className="border px-6 py-3">{row.indian}</td>
+                  <td className="border px-6 py-3">{row.foreign}</td>
                 </tr>
               ))}
             </React.Fragment>
