@@ -3,7 +3,7 @@ import HeroSection from '@/components/HeroSection';
 
 const data = [
     {
-      duration: "Early Bird Registration (Till November 05, 2024)",
+      duration: "Early Bird Registration (Till November 05, 2025)",
       rows: [
         {
           category: "Student Author Registration Fee - IAPR/IUPRAI Member",
@@ -43,7 +43,7 @@ const data = [
       ],
     },
     {
-      duration: "Late Registration (After November 05, 2024)",
+      duration: "Late Registration (After November 05, 2025)",
       rows: [
         {
           category: "Student Author Registration Fee - IAPR/IUPRAI Member",
@@ -142,7 +142,7 @@ const registrations = () => {
           </a>
         </li>
         <li>
-          Please select payment category as CVIP 2024 and enter your paper ID in the remarks.
+          Please select payment category as CVIP 2025 and enter your paper ID in the remarks.
         </li>
         <li>After making payment, kindly take a print/screenshot of your registration receipt.</li>
         <li>
@@ -156,9 +156,9 @@ const registrations = () => {
 
       <h3 className="text-2xl font-semibold mb-4">Single Conference Registration Includes</h3>
       <ul className="list-disc list-inside text-lg mb-6 space-y-2">
-        <li>All CVIP 2024 conference sessions</li>
+        <li>All CVIP 2025 conference sessions</li>
         <li>All keynote and invited talks</li>
-        <li>Refreshments and lunch (Dec 19-21, 2024)</li>
+        <li>Refreshments and lunch (Dec 10-13, 2025)</li>
         <li>Conference dinner</li>
         <li>Conference kit with stationery</li>
       </ul>
@@ -191,7 +191,7 @@ const registrations = () => {
           each extra page.
         </li>
         <li>
-          Onsite registration will be available on the days of the conference (Dec 19-21, 2024) starting from 8:30 A.M. at
+          Onsite registration will be available on the days of the conference (Dec 10-13, 2025) starting from 8:30 A.M. at
           the conference venue.
         </li>
       </ul>
@@ -240,7 +240,7 @@ const registrations = () => {
           <strong>18% GST</strong> is included in the registration fee given above.
         </li>
         <li>
-          <strong>USD conversion rate</strong> is considered at INR 83 for the payment of registration fees.
+          <strong>USD conversion rate</strong> is considered at INR 85 for the payment of registration fees.
         </li>
         <li>
           You must upload the final camera-ready submission before you register your paper and pay the registration fee.
@@ -252,7 +252,7 @@ const registrations = () => {
           </a>
         </li>
         <li>
-          The final camera-ready manuscript submission (Round 1) deadline is <strong>August 01, 2024</strong>.
+          The final camera-ready manuscript submission (Round 1) deadline is <strong>August 01, 2025</strong>.
         </li>
         <li>
           For accommodation details, please see the <strong>accommodation section</strong>.

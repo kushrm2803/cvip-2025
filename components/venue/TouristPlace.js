@@ -31,15 +31,15 @@ const TouristPlace = ({
         />
       </div>
       <div className="md:w-1/2 mt-4 md:mt-0 md:px-8">
-        <h3 className="text-2xl font-bold mb-4">{title}</h3>
-        <p className="text-gray-700 text-base">{description}</p>
+        <h3 className="text-2xl md:text-3xl font-bold mb-4">{title}</h3>
+        <p className="text-gray-700 text-base md:text-lg">{description}</p>
         {distance && (
-          <p className="text-gray-600 text-sm mt-2">
+          <p className="text-gray-600 text-base md:text-lg mt-2">
             <strong>Distance:</strong> {distance}
           </p>
         )}
         {moreInfo && (
-          <p className="text-gray-600 text-sm mt-2">
+          <p className="text-gray-600 text-base md:text-lg mt-2">
             <strong>More Info:</strong> {moreInfo}
           </p>
         )}

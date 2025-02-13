@@ -50,12 +50,13 @@ const HowToReachPage = () => {
             <p className="text-base md:text-lg mb-4">
               The nearest major airport is Chandigarh International Airport,
               located approximately 60 kilometers away from IIT Ropar. From
-              Chandigarh, you can hire a taxi or take a bus service to reach the
-              campus.
+              Chandigarh, you can hire a taxi which will directly drop you to IIT Ropar Campus or take a bus service to reach Rupnagar City and then hire an auto or a taxi to reach IIT Ropar campus.
             </p>
             <p className="text-base md:text-lg">
               The drive from Chandigarh Airport to IIT Ropar typically takes
               around 1 to 1.5 hours, depending on traffic.
+              The drive from Rupnagar City to IIT Ropar typically takes
+              around 15 to 20 minutes.
             </p>
           </motion.section>
 
@@ -66,12 +67,13 @@ const HowToReachPage = () => {
             <p className="text-base md:text-lg mb-4">
               For those traveling by train, the nearest major railway station is
               Chandigarh Railway Station. In addition, there are smaller
-              stations like Rupnagar; however, it has limited connectivity.
+              stations like Rupnagar Railway Station; however, it has limited connectivity.
             </p>
             <p className="text-base md:text-lg">
               Once you arrive at Chandigarh Railway Station, you can easily book
-              a taxi or catch a bus to IIT Ropar, with the journey taking
+              a taxi or catch a bus, with the journey taking
               roughly 1 to 1.5 hours.
+              You can book a taxi or auto directly for IIT Ropar campus if arriving at Rupnagar Railway Station.
             </p>
           </motion.section>
 
@@ -80,12 +82,11 @@ const HowToReachPage = () => {
               By Road
             </h2>
             <p className="text-base md:text-lg mb-4">
-              IIT Ropar is well connected by road. If you are driving or taking
-              a bus, you can travel via National Highways NH-205 and NH-64. The
+              Rupnagar city is well connected by road network through various parts of Punjab state. The route from Rupnagar city to IIT Ropar campus generally takes around 15-20 minutes while the
               route from Chandigarh to IIT Ropar generally takes around 1 to 1.5
-              hours.
+              hours. 
             </p>
-            <p className="text-base md:text-lg">
+            <p className="text-base font-bold md:text-lg mt-11">
               Detailed route maps and further travel guidelines will be provided
               as the conference date approaches.
             </p>

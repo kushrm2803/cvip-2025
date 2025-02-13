@@ -33,17 +33,25 @@ const Footer = () => {
           <Link href="/home" className=" hover:text-gray-700">
             Home
           </Link>
-          <Link href="/about" className=" hover:text-gray-700">
-            About Us
+          <Link href="/imp-dates" className=" hover:text-gray-700">
+            Important Dates
           </Link>
-          <Link href="/contact" className=" hover:text-gray-700">
-            Contact
+          <Link
+            href="/submissions/call-for-papers"
+            className=" hover:text-gray-700"
+          >
+            Call for Papers
           </Link>
-          <Link href="/privacy-policy" className=" hover:text-gray-700">
-            Privacy Policy
+          <Link href="/registrations" className=" hover:text-gray-700">
+            Registration
           </Link>
-          <Link href="/terms-of-service" className=" hover:text-gray-700">
-            Terms of Service
+
+          <Link
+            href="https://www.iitrpr.ac.in/"
+            target="_blank"
+            className=" hover:text-gray-700"
+          >
+            IIT Ropar Site
           </Link>
         </div>
 

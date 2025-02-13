@@ -2,7 +2,7 @@
 
 import React from "react";
 import HeroSection from "@/components/HeroSection";
-import TouristPlace from "@/components/venue/TouristPlace";
+import TouristPlaces from "@/components/venue/NearbyTouristPlace";
 import { AnimatePresence, motion } from "framer-motion";
 
 const containerVariants = {
@@ -40,30 +40,7 @@ const NearbyTouristPlacesPage = () => {
             Explore the Area
           </motion.h2>
 
-          <TouristPlace
-            imageUrl="/home/college-photo.jpeg"
-            title="Rupnagar (Ropar)"
-            description="Rupnagar, known as Ropar, is an ancient historical site with a rich cultural heritage and archaeological significance. Explore ruins, museums, and the relics of its storied past."
-            distance="Approximately 3 km from the IIT Ropar campus."
-            moreInfo="Don't miss the local museum and archaeological sites."
-          />
-
-          <TouristPlace
-            imageUrl="/home/college-photo.jpeg"
-            title="Chandigarh"
-            description="Chandigarh, often referred to as 'The City Beautiful', is famous for its modern architecture, lush green spaces, and iconic attractions like the Rock Garden, Sukhna Lake, and Capitol Complex."
-            reverse={true}
-            distance="Approximately 60 km by road from IIT Ropar."
-            moreInfo="Experience vibrant urban attractions and well-planned landscapes."
-          />
-
-          <TouristPlace
-            imageUrl="/home/college-photo.jpeg"
-            title="Pinjore Gardens"
-            description="Pinjore Gardens is a historic Mughal garden known for its scenic landscapes, vibrant floral displays, and serene ambiance—a perfect retreat near Chandigarh."
-            distance="Around 90 km by road from IIT Ropar."
-            moreInfo="Enjoy a leisurely day amidst lush gardens and ancient architecture."
-          />
+          <TouristPlaces />
         </motion.div>
       </AnimatePresence>
     </div>

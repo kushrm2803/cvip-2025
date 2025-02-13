@@ -29,7 +29,7 @@ const AdditionalInfo = () => {
           whileTap={{ scale: 0.95 }}
         >
           <Link
-            href="/author-guidelines"
+            href="/submissions/author-guidelines"
             className="bg-red-600 text-white py-2 px-6 rounded-lg shadow hover:bg-red-800 transition"
           >
             Guidelines

@@ -32,10 +32,14 @@ const ImageSlider = () => {
         <SwiperSlide key={index}>
           {({ isActive }) => (
             <motion.div
-              whileHover={{ scale: 1.1 }}
-              className={`overflow-hidden rounded-lg shadow-md transition-all duration-500 ${
-                isActive ? "opacity-100" : "opacity-50"
-              }`}
+              animate={{
+                scale: isActive ? 1.2 : 0.9,
+                opacity: isActive ? 1 : 0.7,
+                filter: isActive ? "blur(0px)" : "blur(2px)",
+              }}
+              transition={{ duration: 0.5 }}
+              whileHover={isActive ? { scale: 1.25 } : {}}
+              className="overflow-hidden rounded-lg shadow-md"
             >
               <img
                 src={image}
