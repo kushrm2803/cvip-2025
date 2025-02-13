@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 const ConferenceInfo = () => {
     return (
       <motion.div 
-        className="bg-red-50 p-8 rounded-xl shadow-lg w-full"
+        className= "p-8 rounded-xl shadow-lg w-full"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         // viewport={{ once: true }}
