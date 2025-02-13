@@ -65,7 +65,7 @@ const Navbar = ({ isMobile, closeMenu }) => {
       dropdown: [
         { label: "Organizing Committee", link: "/committee/organizing-committee",},
         { label: "Advisory Committee", link: "/committee/advisory-committee" },
-        { label: "Steering Committee", link: "/committee/steering-comittee"}
+        { label: "Steering Committee", link: "/committee/steering-committee"}
       ],
     },
     { label: "Sponsorships", link: "/sponsorships" },
