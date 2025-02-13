@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, {useState, useEffect} from "react";
 import MemberCard from "@/components/committee/MemberCard";
 import HeroSection from "@/components/HeroSection";
 import { motion } from "framer-motion";
@@ -61,7 +61,14 @@ const AdvisoryCommittee = () => {
       link: "https://scholar.google.com/elizabeth",
     },
   ];
-
+    const [isClient, setIsClient] = useState(false);
+  
+    useEffect(() => {
+      setIsClient(true);
+    }, []);
+  
+    if (!isClient) return null;
+    
   return (
     <div className="min-h-screen bg-gray-100 py-12 px-6">
       <HeroSection
