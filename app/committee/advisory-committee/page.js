@@ -9,25 +9,25 @@ const AdvisoryCommittee = () => {
     {
       name: "Dr. Elizabeth Green",
       role: "Senior Advisor",
-      image: "/committee/avatar.png",
+      image: "/cvip2025/committee/avatar.png",
       link: "https://scholar.google.com/elizabeth",
     },
     {
       name: "Dr. Michael Lee",
       role: "Technical Advisor",
-      image: "/committee/avatar.png",
+      image: "/cvip2025/committee/avatar.png",
       link: "https://scholar.google.com/michael",
     },
     {
       name: "Dr. Susan White",
       role: "Strategic Advisor",
-      image: "/committee/avatar.png",
+      image: "/cvip2025/committee/avatar.png",
       link: "https://scholar.google.com/susan",
     },
     {
       name: "Dr. David Brown",
       role: "External Relations Advisor",
-      image: "/committee/avatar.png",
+      image: "/cvip2025/committee/avatar.png",
       link: "https://scholar.google.com/david",
     },
     {

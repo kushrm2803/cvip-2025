@@ -1,9 +1,3 @@
-import React from 'react'
+import Page from './home/page'
 
-const page = () => {
-  return (
-    <div>page</div>
-  )
-}
-
-export default page
+export default Page

@@ -4,7 +4,7 @@ const nextConfig = {
   // reactStrictMode: true,
   // Use static export mode
   // output: "export",
-  async redirects() {
+  /* async redirects() {
     return [
       {
         source: "/",
@@ -12,9 +12,10 @@ const nextConfig = {
         permanent: true, // Use true for permanent redirects (HTTP 308)
       },
     ];
-  },
+  }, */
   basePath: '/cvip2025',
-  trailingSlash: false,
+  assetPrefix: '/cvip2025/',
+  //trailingSlash: false,
 };
 
 export default nextConfig;
