@@ -13,6 +13,8 @@ const nextConfig = {
       },
     ];
   },
+  basePath: '/cvip2025',
+  trailingSlash: false,
 };
 
 export default nextConfig;
