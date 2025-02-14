@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: "/cvip2025",
+  assetPrefix: "/cvip2025",
   async redirects() {
     return [
       {
