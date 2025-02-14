@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // Disable SSR features
-  reactStrictMode: true,
+  // reactStrictMode: true,
   // Use static export mode
-  output: "export",
+  // output: "export",
   async redirects() {
     return [
       {
