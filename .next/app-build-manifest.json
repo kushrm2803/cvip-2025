@@ -1,0 +1,160 @@
+{
+  "pages": {
+    "/not-found": [
+      "static/chunks/webpack-e620409856058d64.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-d4b1b782ce3beff8.js",
+      "static/chunks/main-app-e18856450b0fe506.js",
+      "static/chunks/124-2b886795ef1e7181.js",
+      "static/chunks/app/not-found-78cb214c87e02bb2.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack-e620409856058d64.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-d4b1b782ce3beff8.js",
+      "static/chunks/main-app-e18856450b0fe506.js",
+      "static/chunks/app/_not-found/page-02834b0d651e300d.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-e620409856058d64.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-d4b1b782ce3beff8.js",
+      "static/chunks/main-app-e18856450b0fe506.js",
+      "static/css/86896966cb495c24.css",
+      "static/chunks/565-086e1af49afc1b93.js",
+      "static/chunks/173-610af7fe2ef0dab4.js",
+      "static/chunks/app/layout-b9879f3c8f9aef6b.js"
+    ],
+    "/committee/organizing-committee/page": [
+      "static/chunks/webpack-e620409856058d64.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-d4b1b782ce3beff8.js",
+      "static/chunks/main-app-e18856450b0fe506.js",
+      "static/chunks/124-2b886795ef1e7181.js",
+      "static/chunks/565-086e1af49afc1b93.js",
+      "static/chunks/app/committee/organizing-committee/page-20e4cbaee2171aac.js"
+    ],
+    "/committee/advisory-committee/page": [
+      "static/chunks/webpack-e620409856058d64.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-d4b1b782ce3beff8.js",
+      "static/chunks/main-app-e18856450b0fe506.js",
+      "static/chunks/124-2b886795ef1e7181.js",
+      "static/chunks/565-086e1af49afc1b93.js",
+      "static/chunks/app/committee/advisory-committee/page-992f3d1f810064f6.js"
+    ],
+    "/home/page": [
+      "static/chunks/webpack-e620409856058d64.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-d4b1b782ce3beff8.js",
+      "static/chunks/main-app-e18856450b0fe506.js",
+      "static/chunks/124-2b886795ef1e7181.js",
+      "static/chunks/565-086e1af49afc1b93.js",
+      "static/chunks/173-610af7fe2ef0dab4.js",
+      "static/chunks/app/home/page-8122240607adeff0.js"
+    ],
+    "/imp-dates/page": [
+      "static/chunks/webpack-e620409856058d64.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-d4b1b782ce3beff8.js",
+      "static/chunks/main-app-e18856450b0fe506.js",
+      "static/chunks/124-2b886795ef1e7181.js",
+      "static/chunks/565-086e1af49afc1b93.js",
+      "static/chunks/173-610af7fe2ef0dab4.js",
+      "static/chunks/app/imp-dates/page-21072459da4f6be3.js"
+    ],
+    "/submissions/author-guidelines/page": [
+      "static/chunks/webpack-e620409856058d64.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-d4b1b782ce3beff8.js",
+      "static/chunks/main-app-e18856450b0fe506.js",
+      "static/chunks/124-2b886795ef1e7181.js",
+      "static/chunks/565-086e1af49afc1b93.js",
+      "static/chunks/173-610af7fe2ef0dab4.js",
+      "static/chunks/app/submissions/author-guidelines/page-2f1e3ccffddbb5b4.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-e620409856058d64.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-d4b1b782ce3beff8.js",
+      "static/chunks/main-app-e18856450b0fe506.js",
+      "static/chunks/app/page-b27f59ff85868c0d.js"
+    ],
+    "/registrations/page": [
+      "static/chunks/webpack-e620409856058d64.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-d4b1b782ce3beff8.js",
+      "static/chunks/main-app-e18856450b0fe506.js",
+      "static/chunks/124-2b886795ef1e7181.js",
+      "static/chunks/565-086e1af49afc1b93.js",
+      "static/chunks/app/registrations/page-f82d483e8f4bfc8a.js"
+    ],
+    "/sponsorships/page": [
+      "static/chunks/webpack-e620409856058d64.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-d4b1b782ce3beff8.js",
+      "static/chunks/main-app-e18856450b0fe506.js",
+      "static/chunks/124-2b886795ef1e7181.js",
+      "static/chunks/565-086e1af49afc1b93.js",
+      "static/chunks/app/sponsorships/page-ea05edd546a0ef28.js"
+    ],
+    "/submissions/call-for-papers/page": [
+      "static/chunks/webpack-e620409856058d64.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-d4b1b782ce3beff8.js",
+      "static/chunks/main-app-e18856450b0fe506.js",
+      "static/chunks/124-2b886795ef1e7181.js",
+      "static/chunks/565-086e1af49afc1b93.js",
+      "static/chunks/173-610af7fe2ef0dab4.js",
+      "static/chunks/app/submissions/call-for-papers/page-921f4f37833888b8.js"
+    ],
+    "/venue&travel/conference-venue/page": [
+      "static/chunks/webpack-e620409856058d64.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-d4b1b782ce3beff8.js",
+      "static/chunks/main-app-e18856450b0fe506.js",
+      "static/css/126acce611cc7b99.css",
+      "static/chunks/124-2b886795ef1e7181.js",
+      "static/chunks/565-086e1af49afc1b93.js",
+      "static/chunks/295-62bbab5c47f90264.js",
+      "static/chunks/app/venue&travel/conference-venue/page-46d4e0eacec0f006.js"
+    ],
+    "/venue&travel/how-to-reach/page": [
+      "static/chunks/webpack-e620409856058d64.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-d4b1b782ce3beff8.js",
+      "static/chunks/main-app-e18856450b0fe506.js",
+      "static/chunks/124-2b886795ef1e7181.js",
+      "static/chunks/565-086e1af49afc1b93.js",
+      "static/chunks/app/venue&travel/how-to-reach/page-223f77efedc6981a.js"
+    ],
+    "/venue&travel/tourist-places-nearby/page": [
+      "static/chunks/webpack-e620409856058d64.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-d4b1b782ce3beff8.js",
+      "static/chunks/main-app-e18856450b0fe506.js",
+      "static/chunks/124-2b886795ef1e7181.js",
+      "static/chunks/565-086e1af49afc1b93.js",
+      "static/chunks/app/venue&travel/tourist-places-nearby/page-c768f38b4cea6fb1.js"
+    ],
+    "/committee/steering-committee/page": [
+      "static/chunks/webpack-e620409856058d64.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-d4b1b782ce3beff8.js",
+      "static/chunks/main-app-e18856450b0fe506.js",
+      "static/chunks/124-2b886795ef1e7181.js",
+      "static/chunks/565-086e1af49afc1b93.js",
+      "static/chunks/app/committee/steering-committee/page-cce4a2c150fb9d91.js"
+    ],
+    "/venue&travel/accomodation/page": [
+      "static/chunks/webpack-e620409856058d64.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-d4b1b782ce3beff8.js",
+      "static/chunks/main-app-e18856450b0fe506.js",
+      "static/chunks/124-2b886795ef1e7181.js",
+      "static/chunks/565-086e1af49afc1b93.js",
+      "static/chunks/173-610af7fe2ef0dab4.js",
+      "static/chunks/app/venue&travel/accomodation/page-02073bb8495f6304.js"
+    ]
+  }
+}
