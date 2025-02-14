@@ -16,7 +16,7 @@ const AboutIITRopar = () => {
             transition={{ duration: 0.8 }}
           >
             <img
-              src="/home/college-photo.jpeg"
+              src="/iitropar-pics/iitropar-pic-2.jpg"
               alt="IIT Ropar Campus"
               className="rounded-xl shadow-lg"
             />

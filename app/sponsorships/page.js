@@ -27,7 +27,7 @@ const SponsorshipPage = () => {
       <HeroSection
         key={Math.random()}
         title="Sponsorship & Exhibitor Opportunities"
-        imageUrl="/home/college-photo.jpeg"
+        imageUrl="/iitropar-pics/iitropar-pic-7.jpg"
       />
 
       <motion.div

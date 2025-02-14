@@ -8,11 +8,11 @@ import ScrollButton from "./ScrollButton";
 const Carousel = () => {
   const slides = [
     {
-      src: "/home/college-photo.jpeg",
+      src: "/iitropar-pics/iitropar-pic-1.JPG",
       alt: "CVIP 2022 Conference",
     },
-    { src: "/home/spiral.jpg", alt: "Slide 2" },
-    { src: "/home/college-photo.jpeg", alt: "Slide 3" },
+    { src: "/iitropar-pics/iitropar-pic-2.jpg", alt: "Slide 2" },
+    { src: "/iitropar-pics/iitropar-pic-7.jpg", alt: "Slide 3" },
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);

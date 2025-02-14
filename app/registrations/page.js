@@ -110,7 +110,7 @@ const registrations = () => {
       <HeroSection
         key={Math.random()}
         title="Registrations"
-        imageUrl="/home/college-photo.jpeg"
+        imageUrl="/iitropar-pics/iitropar-pic-7.jpg"
       />
       <div className="bg-white p-6 md:p-10 rounded-xl shadow-lg">
       <ul className="list-disc list-inside text-base">

@@ -32,7 +32,7 @@ const HowToReachPage = () => {
       <HeroSection
         key={Math.random()}
         title="How to Reach IIT Ropar"
-        imageUrl="/home/college-photo.jpeg"
+        imageUrl="/iitropar-pics/iitropar-pic-7.jpg"
       />
 
       <AnimatePresence>

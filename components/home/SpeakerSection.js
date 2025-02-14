@@ -10,37 +10,37 @@ const speakersData = [
     id: 1,
     name: "Dr. John Doe",
     role: "AI Researcher | IIT Ropar",
-    image: "/committee/rajeev-ahuja.jpeg",
+    image: "/committee/avatar.png",
   },
   {
     id: 2,
     name: "Jane Smith",
     role: "Blockchain Expert | IIT Delhi",
-    image: "/committee/rajeev-ahuja.jpeg",
+    image: "/committee/avatar.png",
   },
   {
     id: 3,
     name: "Alice Johnson",
     role: "Cloud Specialist",
-    image: "/committee/rajeev-ahuja.jpeg",
+    image: "/committee/avatar.png",
   },
   {
     id: 4,
     name: "Robert Brown",
     role: "Cybersecurity Analyst",
-    image: "/committee/rajeev-ahuja.jpeg",
+    image: "/committee/avatar.png",
   },
   {
     id: 5,
     name: "Emily Davis",
     role: "Data Scientist",
-    image: "/committee/rajeev-ahuja.jpeg",
+    image: "/committee/avatar.png",
   },
   {
     id: 6,
     name: "Michael Wilson",
     role: "Software Engineer",
-    image: "/committee/rajeev-ahuja.jpeg",
+    image: "/committee/avatar.png",
   },
 ];
 

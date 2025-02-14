@@ -20,7 +20,7 @@ const NearbyTouristPlacesPage = () => {
       <HeroSection
         key={Math.random()}
         title="Nearby Tourist Places"
-        imageUrl="/home/college-photo.jpeg"
+        imageUrl="/iitropar-pics/iitropar-pic-7.jpg"
       />
 
       <AnimatePresence>

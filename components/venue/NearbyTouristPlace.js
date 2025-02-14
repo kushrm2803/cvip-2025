@@ -5,7 +5,7 @@ import TouristPlace from "@/components/venue/TouristPlace";
 
 const touristPlacesData = [
   {
-    imageUrl: "/home/college-photo.jpeg",
+    imageUrl: "/venue/venue-1.jpg",
     title: "Rupnagar (Ropar)",
     description:
       "Rupnagar, known as Ropar, is an ancient historical site with a rich cultural heritage and archaeological significance. Explore ruins, museums, and the relics of its storied past.",
@@ -13,7 +13,7 @@ const touristPlacesData = [
     moreInfo: "Don't miss the local museum and archaeological sites.",
   },
   {
-    imageUrl: "/home/college-photo.jpeg",
+    imageUrl: "/venue/venue-2.jpg",
     title: "Chandigarh",
     description:
       "Chandigarh, often referred to as 'The City Beautiful', is famous for its modern architecture, lush green spaces, and iconic attractions like the Rock Garden, Sukhna Lake, and Capitol Complex.",
@@ -23,7 +23,7 @@ const touristPlacesData = [
       "Experience vibrant urban attractions and well-planned landscapes.",
   },
   {
-    imageUrl: "/home/college-photo.jpeg",
+    imageUrl: "/venue/venue-3.jpg",
     title: "Pinjore Gardens",
     description:
       "Pinjore Gardens is a historic Mughal garden known for its scenic landscapes, vibrant floral displays, and serene ambiance—a perfect retreat near Chandigarh.",
@@ -32,7 +32,7 @@ const touristPlacesData = [
       "Enjoy a leisurely day amidst lush gardens and ancient architecture.",
   },
   {
-    imageUrl: "/home/college-photo.jpeg",
+    imageUrl: "/venue/venue-4.jpg",
     title: "Virasat-e-Khalsa",
     description:
       "Virasat-e-Khalsa, the monument of Sikh culture, is a striking museum that celebrates the rich heritage and traditions of the Sikh community. It is a must-visit for those interested in the history and art of the region.",

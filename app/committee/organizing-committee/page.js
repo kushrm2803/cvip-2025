@@ -13,7 +13,7 @@ const page = () => {
       {
         name: "Dr. John Doe",
         role: "Chief Patron",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/john",
       },
     ],
@@ -21,25 +21,25 @@ const page = () => {
       {
         name: "Dr. Jane Smith",
         role: "General Chair",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/jane",
       },
       {
         name: "Dr. Sarah Lee",
         role: "General Chair",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/sarah",
       },
       {
         name: "Dr. Mark Brown",
         role: "General Chair",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/mark",
       },
       {
         name: "Dr. Lisa White",
         role: "General Chair",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/lisa",
       },
     ],
@@ -47,25 +47,25 @@ const page = () => {
       {
         name: "Dr. Peter Green",
         role: "General Co-Chair",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/peter",
       },
       {
         name: "Dr. Emily Stone",
         role: "General Co-Chair",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/emily",
       },
       {
         name: "Dr. Tom Harris",
         role: "General Co-Chair",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/tom",
       },
       {
         name: "Dr. Katie Grey",
         role: "General Co-Chair",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/katie",
       },
     ],
@@ -73,13 +73,13 @@ const page = () => {
       {
         name: "Dr. Adam Black",
         role: "Conference Chair",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/adam",
       },
       {
         name: "Dr. James White",
         role: "Conference Chair",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/james",
       },
     ],
@@ -87,13 +87,13 @@ const page = () => {
       {
         name: "Dr. Rachel Blue",
         role: "Conference Co-Chair",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/rachel",
       },
       {
         name: "Dr. Steve Brown",
         role: "Conference Co-Chair",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/steve",
       },
     ],
@@ -101,13 +101,13 @@ const page = () => {
       {
         name: "Dr. Anna White",
         role: "Conference Convener",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/anna",
       },
       {
         name: "Dr. Daniel Grey",
         role: "Conference Convener",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/daniel",
       },
     ],
@@ -115,13 +115,13 @@ const page = () => {
       {
         name: "Dr. Charles Smith",
         role: "Publicity Chair",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/charles",
       },
       {
         name: "Dr. Nancy Green",
         role: "Publicity Chair",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/nancy",
       },
     ],
@@ -129,13 +129,13 @@ const page = () => {
       {
         name: "Dr. Alice Cooper",
         role: "Program Chair",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/alice",
       },
       {
         name: "Dr. John Black",
         role: "Program Chair",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/john",
       },
     ],
@@ -143,13 +143,13 @@ const page = () => {
       {
         name: "Dr. Bob Brown",
         role: "Committee Member",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/bob",
       },
       {
         name: "Dr. Lily Grey",
         role: "Committee Member",
-        image: "/committee/rajeev-ahuja.jpeg",
+        image: "/committee/avatar.png",
         link: "https://scholar.google.com/lily",
       },
     ],
@@ -163,7 +163,7 @@ const page = () => {
       <HeroSection
         key={Math.random()}
         title="Organizing Committee"
-        imageUrl="/home/college-photo.jpeg"
+        imageUrl="/iitropar-pics/iitropar-pic-7.jpg"
       />
       <div className="mt-4">
         <GroupFilter

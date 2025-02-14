@@ -34,7 +34,7 @@ const AccommodationPage = () => {
       <HeroSection
         key={Math.random()}
         title="Accommodation & Travel Grants"
-        imageUrl="/home/college-photo.jpeg"
+        imageUrl="/iitropar-pics/iitropar-pic-7.jpg"
       />
 
       <AnimatePresence>

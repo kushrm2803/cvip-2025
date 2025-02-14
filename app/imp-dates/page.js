@@ -52,7 +52,7 @@ const page = () => {
       <HeroSection
         key={Math.random()}
         title="Important Dates"
-        imageUrl="/home/college-photo.jpeg"
+        imageUrl="/iitropar-pics/iitropar-pic-7.jpg"
       />
 
       <div className="container mx-auto py-12 px-4">

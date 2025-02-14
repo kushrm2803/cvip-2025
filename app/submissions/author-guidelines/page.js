@@ -26,7 +26,7 @@ const AuthorGuidelinesPage = () => {
       <HeroSection
         key={Math.random()}
         title="Author Guidelines"
-        imageUrl="/home/college-photo.jpeg"
+        imageUrl="/iitropar-pics/iitropar-pic-7.jpg"
       />
 
       <AnimatePresence>

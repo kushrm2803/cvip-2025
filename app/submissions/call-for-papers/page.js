@@ -27,7 +27,7 @@ const CallForPapersPage = () => {
       <HeroSection
         key={Math.random()}
         title="Call for Papers"
-        imageUrl="/home/college-photo.jpeg"
+        imageUrl="/iitropar-pics/iitropar-pic-7.jpg"
       />
 
       <AnimatePresence>

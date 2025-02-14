@@ -8,11 +8,13 @@ import "swiper/css/pagination";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 const images = [
-  "/home/college-photo.jpeg",
-  "/home/college-photo.jpeg",
-  "/home/college-photo.jpeg",
-  "/home/college-photo.jpeg",
-  "/home/college-photo.jpeg",
+  "/iitropar-pics/iitropar-pic-1.jpg",
+  "/iitropar-pics/iitropar-pic-2.jpg",
+  "/iitropar-pics/iitropar-pic-3.jpeg",
+  "/iitropar-pics/iitropar-pic-4.jpg",
+  "/iitropar-pics/iitropar-pic-5.jpeg",
+  "/iitropar-pics/iitropar-pic-6.jpg",
+  "/iitropar-pics/iitropar-pic-7.jpg",
 ];
 
 const ImageSlider = () => {

@@ -9,55 +9,55 @@ const AdvisoryCommittee = () => {
     {
       name: "Dr. Elizabeth Green",
       role: "Senior Advisor",
-      image: "/committee/rajeev-ahuja.jpeg",
+      image: "/committee/avatar.png",
       link: "https://scholar.google.com/elizabeth",
     },
     {
       name: "Dr. Michael Lee",
       role: "Technical Advisor",
-      image: "/committee/rajeev-ahuja.jpeg",
+      image: "/committee/avatar.png",
       link: "https://scholar.google.com/michael",
     },
     {
       name: "Dr. Susan White",
       role: "Strategic Advisor",
-      image: "/committee/rajeev-ahuja.jpeg",
+      image: "/committee/avatar.png",
       link: "https://scholar.google.com/susan",
     },
     {
       name: "Dr. David Brown",
       role: "External Relations Advisor",
-      image: "/committee/rajeev-ahuja.jpeg",
+      image: "/committee/avatar.png",
       link: "https://scholar.google.com/david",
     },
     {
       name: "Dr. Anna Black",
       role: "Research Advisor",
-      image: "/committee/rajeev-ahuja.jpeg",
+      image: "/committee/avatar.png",
       link: "https://scholar.google.com/anna",
     },
     {
       name: "Dr. Elizabeth Green",
       role: "Senior Advisor",
-      image: "/committee/rajeev-ahuja.jpeg",
+      image: "/committee/avatar.png",
       link: "https://scholar.google.com/elizabeth",
     },
     {
       name: "Dr. Dustin Green",
       role: "Senior Advisor",
-      image: "/committee/rajeev-ahuja.jpeg",
+      image: "/committee/avatar.png",
       link: "https://scholar.google.com/elizabeth",
     },
     {
       name: "Dr. Elizabeth Jacob",
       role: "Senior Advisor",
-      image: "/committee/rajeev-ahuja.jpeg",
+      image: "/committee/avatar.png",
       link: "https://scholar.google.com/elizabeth",
     },
     {
       name: "Dr. Eliz Green",
       role: "Senior Advisor",
-      image: "/committee/rajeev-ahuja.jpeg",
+      image: "/committee/avatar.png",
       link: "https://scholar.google.com/elizabeth",
     },
   ];
@@ -74,7 +74,7 @@ const AdvisoryCommittee = () => {
       <HeroSection
         key={Math.random()}
         title="Advisory Committee"
-        imageUrl="/home/college-photo.jpeg"
+        imageUrl="/iitropar-pics/iitropar-pic-7.jpg"
       />
       <motion.div
         initial={{ opacity: 0, y: 50 }}

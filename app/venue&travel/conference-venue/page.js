@@ -11,7 +11,7 @@ const ConferenceVenue = () => {
       <HeroSection
         key={Math.random()}
         title="Conference Venue"
-        imageUrl="/home/college-photo.jpeg"
+        imageUrl="/iitropar-pics/iitropar-pic-7.jpg"
       />
       <div className="mt-4">
         <AboutInstitute />
