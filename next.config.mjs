@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/cvip2025",
-  assetPrefix: "/cvip2025",
+  // Disable SSR features
+  reactStrictMode: true,
+  // Use static export mode
+  output: "export",
   async redirects() {
     return [
       {
